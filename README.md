@@ -4,10 +4,10 @@ FIFO (First in First out):
 
 The memory interface of the FIFO is presented in the following tables.
 
-| Name        | Parameter   | Value  | Default | Value Range       | Description                                                          |
-|-------------|-------------|--------|---------|-------------------|----------------------------------------------------------------------|
-| DATA_WIDTH  | 8 ≥ 1       |        |         |                   | Size of the data                                                     |
-| ADDR_WIDTH  | 4 > 1       |        |         |                   | Size of the internal address. Determines the FIFO depth (2^ADDR WIDTH|
+| Name        | Parameter   | Value  | Default | Value Range       | Description                                                                     |
+|-------------|-------------|--------|---------|-------------------|---------------------------------------------------------------------------------|
+| DATA_WIDTH  | 8 ≥ 1       |        |         |                   | Size of the data                                                                |
+| ADDR_WIDTH  | 4 > 1       |        |         |                   | Size of the internal address. Determines the FIFO depth (2<sup>ADDR WIDTH</sup>)|
 
 | Port Name   | Direction   | Size       | Description                                                            |
 |-------------|-------------|------------|------------------------------------------------------------------------|

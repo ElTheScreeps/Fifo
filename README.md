@@ -1,6 +1,6 @@
 FIFO (First in First out):
 
-![FIFO Diagram](https://github.com/ElTheScreeps/FIFO/assets/115155585/15310a07-8674-4d0b-9624-68db7046e7bb)
+![DW03_BICTR_DCNTO Diagram](https://github.com/ElTheScreeps/FIFO/assets/115155585/387692f4-1b07-41e3-89f4-bd9bd86ce869)
 
 The memory interface of the FIFO is presented in the following tables.
 

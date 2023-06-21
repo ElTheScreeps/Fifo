@@ -2,9 +2,9 @@ FIFO (First in First out):
 
 How to use this files:
 
-Download the files;
-Put them in a directory;
-Open Modelsim;
-Change directory to the directory who contain the files;
-Create a project and add the files;
-Compile the files and start stimulate.
+1. Download the files;
+2. Put them in a directory;
+3. Open Modelsim;
+4. Change directory to the directory who contain the files;
+5. Create a project and add the files;
+6. Compile the files and start stimulate.

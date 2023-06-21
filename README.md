@@ -13,9 +13,9 @@ The memory interface of the FIFO is presented in the following tables.
 |    :---:    |    :---:    |   :---:    |   :---:                                                                |
 | clk         | IN          | 1          | Clock signal                                                           |
 | rst_n       | IN          | 1          | Asynchronous reset signal, active low                                  |
-| push        | IN          | 1          | Write command for data, valid only if the memory is not full (full=0)  |
+| write_en    | IN          | 1          | Write command for data, valid only if the memory is not full (full=0)  |
 | data_in     | IN          | DATA_WIDTH | Written data                                                           |
-| pop         | IN          | 1          | Read command for data, valid only if the memory is not empty (empty=0) |
+| read_en     | IN          | 1          | Read command for data, valid only if the memory is not empty (empty=0) |
 | data_out    | OUT         | DATA_WIDTH | Read data (first written)                                              |
 | empty       | OUT         | 1          | FIFO memory empty indicator. No reads (pop) are allowed                |
 | full        | OUT         | 1          | FIFO memory full indicator. No writes (push) are allowed               |

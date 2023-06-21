@@ -17,8 +17,8 @@ The memory interface of the FIFO is presented in the following tables.
 | data_in     | IN          | DATA_WIDTH | Written data                                                           |
 | read_en     | IN          | 1          | Read command for data, valid only if the memory is not empty (empty=0) |
 | data_out    | OUT         | DATA_WIDTH | Read data (first written)                                              |
-| empty       | OUT         | 1          | FIFO memory empty indicator. No reads (pop) are allowed                |
-| full        | OUT         | 1          | FIFO memory full indicator. No writes (push) are allowed               |
+| empty       | OUT         | 1          | FIFO memory empty indicator. No reads (read_en) are allowed            |
+| full        | OUT         | 1          | FIFO memory full indicator. No writes (write_en) are allowed           |
 
 
 How to use this files:

@@ -1,5 +1,8 @@
 FIFO (First in First out):
 
+!!!WARNING!!!
+This is not the final version of this code. There is a problem with signal full and empty
+
 ![DW03_BICTR_DCNTO Diagram](https://github.com/ElTheScreeps/FIFO/assets/115155585/387692f4-1b07-41e3-89f4-bd9bd86ce869)
 
 The memory interface of the FIFO is presented in the following tables.

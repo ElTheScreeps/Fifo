@@ -1,7 +1,7 @@
 FIFO (First in First out):
 
 !!!WARNING!!!
-This is not the final version of this code. There is a problem with signal full and empty!
+This is not the final version of this code. There is a problem with signals full and empty!
 
 ![FIFO Diragram](https://github.com/ElTheScreeps/FIFO/assets/115155585/37201b98-01a5-4a32-bf09-10e309b09222)
 

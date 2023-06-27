@@ -81,7 +81,6 @@ repeat(2) @(posedge clk);
 read_en  = 0;
 end
 
-//Monitorizarea semnalelor
 always @(posedge clk) begin
 $display("clk=%b, rst_n=%b, write_en=%b, read_en=%b, data_in=%h, data_out=%h, full=%b, empty=%b", clk, rst_n, write_en, read_en, data_in, data_out, full, empty);
 end

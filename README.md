@@ -1,4 +1,4 @@
-FIFO (First IN First OUT):
+# FIFO (First IN First OUT):
 
 ![FIFO Diragram](https://github.com/ElTheScreeps/FIFO/assets/115155585/efb3e2d2-5124-4c6e-bae1-b8675c9e3702)
 
